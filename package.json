@@ -1,0 +1,40 @@
+{
+    "name": "device-dashboard",
+    "version": "1.0.0",
+    "description": "relayr frontend hiring test",
+    "main": "index.js",
+    "scripts": {
+        "start": "run-p start:api start:app",
+        "start:app": "node dev-server.js",
+        "start:api": "node api-server.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-es2017": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.9",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^2.30.1",
+        "npm-run-all": "^4.1.2",
+        "open": "0.0.5",
+        "path": "^0.12.7",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-hot-loader": "^3.1.3",
+        "react-redux": "^5.0.7",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.3.0",
+        "restify": "^6.3.4",
+        "restify-cors-middleware": "^1.1.0",
+        "restify-plugins": "^1.6.0",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "css-hot-loader": "^1.3.6"
+    }
+}

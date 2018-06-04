@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+button {
+  vertical-align: middle;
+  display: inline-flex;
+  padding: .25rem;
+  height: 30px;
+}
+
+ul { list-style: none; }
+li { margin: .25rem 0; }
+
+label { cursor: pointer; }
+
+#app { display: flex; }
+
+/* Filters */
+.filters {
+  padding: 20px;
+  align-self: flex-start;
+  position: sticky;
+  top: 0;
+}
+
+/* Devices */
+.devices {
+  padding: 20px;
+  flex: 1;
+}
+
+.devices-item {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.devices-item:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.devices-item:last-of-type {
+  padding-bottom: 0;
+}
