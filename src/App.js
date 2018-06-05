@@ -21,6 +21,4 @@ class App extends React.Component {
   }
 }
 
-Filters.displayName = 'App';
-
 export default App;

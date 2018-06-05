@@ -1,4 +1,4 @@
-const actions: Array<string> = [
+const actions = [
   'GET_DEVICES',
   'GET_DEVICES_SUCCESS',
   'GET_DEVICES_FAIL',
